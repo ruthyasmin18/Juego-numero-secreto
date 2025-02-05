@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(45deg, #1e3c72, #2a5298);
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: flex; /*indica que estoy tomando a body como un contenedor*/
+    align-items: center; /*centrar horizontalmente*/
+    flex-direction: column; /*apila los elementos verticalmente, normalmente se hace horizontal*/
+    justify-content: center; /*centrar verticalmente*/
+    height: 100dvh;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background: #ff9800;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}   
+
