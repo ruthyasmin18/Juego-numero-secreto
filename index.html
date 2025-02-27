@@ -8,23 +8,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
 </head>
-<body>
-    <header>
-        <h1></h1>
-    </header>
-
-    <main>
-        <p></p>
-        <input disabled type="number" placeholder="Ingresa un número" id="numeroUsuario">
-        <button onclick="verificarIntento();">Intentar</button>
-        <button disabled id="reiniciar" onclick="nuevoJuego();">Nuevo juego</button>
-
-
-
+<body class="body">
+    <header class="header">
+        <div class="titulo">
+            <h1></h1>
+        </div>
+     </header>
+    <main class="main">
+        <p class="indicaciones"></p>
+        <input class="entrada" disabled type="number" placeholder="" id="numeroUsuario">
+        <div class = "presentacion_botones">
+            <div class="presentacion_botones_individual">
+                <button class="presentacion_botones_individual_link"  onclick="verificarIntento();">Intentar</button>
+            </div>
+            <div class="presentacion_botones_individual">
+                <button class="presentacion_botones_individual_link" disabled id="reiniciar" onclick="nuevoJuego();">Nuevo juego</button>
+            </div>
+        </div>
     </main>
 
-    <footer>
-        <p>© 2025 Ruth Amaya. Todos los derechos reservados.</p>    
+    <footer class="footer">
+        <p>© 2025 Ruth Amaya. Todos los derechos reservadoss.</p>    
     </footer>
     <script src = "app.js"></script>
 </body>

@@ -1,25 +1,84 @@
-body {
-    background: linear-gradient(45deg, #1e3c72, #2a5298);
-    color: rgb(255, 255, 255);
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    display: flex; /*indica que estoy tomando a body como un contenedor*/
-    align-items: center; /*centrar horizontalmente*/
-    flex-direction: column; /*apila los elementos verticalmente, normalmente se hace horizontal*/
-    justify-content: center; /*centrar verticalmente*/
-    height: 100dvh;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&display=swap');
+*{
     margin: 0;
     padding: 0;
 }
 
-button {
-    background: #ff9800;
-    border: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    color: white;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.3s;
-}   
+.titulo{
+    font-family: "Orbitron", serif;
+    font-size: 25px;
+    color: #FFFFFF
 
+}
+
+
+.indicaciones{
+    font-family: "Josefin Sans", serif; 
+    font-size: 30px;
+    color: #4FD1C5;
+}
+
+.entrada{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.body {
+    background-image:url("Fondo.jpg");
+    background-size: cover;    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 16%;
+} 
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    align-items: center;
+}
+
+.presentacion_botones{
+    display: flex;
+    gap: 20px;
+    padding: 8px 18px;
+}
+
+.presentacion_botones_individual_link{
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 160px;
+    height: 40px;
+}
+
+.presentacion_botones_individual{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 60px;
+}
+.footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.presentacion_botones_individual_link:hover{
+    background-color:hsl(174, 59%, 56%);
+    width: 165px;
+    height: 45px;
+}
